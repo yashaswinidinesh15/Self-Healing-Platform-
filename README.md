@@ -1,9 +1,6 @@
 # SelfHealStack — Autonomous Infrastructure Recovery Platform
 
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28+-326CE5.svg)](https://kubernetes.io)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 
 > **Enterprise-grade self-healing infrastructure that detects anomalies, predicts failures, and auto-remediates incidents before they impact users — reducing on-call burden by 65% and MTTR from 30 minutes to 4 minutes.**
 
