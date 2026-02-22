@@ -7,11 +7,7 @@
 
 > **Enterprise-grade self-healing infrastructure that detects anomalies, predicts failures, and auto-remediates incidents before they impact users — reducing on-call burden by 65% and MTTR from 30 minutes to 4 minutes.**
 
-<p align="center">
-  <img src="docs/architecture.png" alt="SelfHealStack Architecture" width="800"/>
-</p>
 
----
 
 ## The Problem
 
