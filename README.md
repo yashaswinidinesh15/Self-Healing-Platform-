@@ -1,4 +1,4 @@
-# 🔥 SelfHealStack — Autonomous Infrastructure Recovery Platform
+# SelfHealStack — Autonomous Infrastructure Recovery Platform
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://python.org)
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-1.28+-326CE5.svg)](https://kubernetes.io)
@@ -13,7 +13,7 @@
 
 ---
 
-## 🎯 The Problem
+## The Problem
 
 Modern infrastructure teams face critical challenges:
 
@@ -23,7 +23,7 @@ Modern infrastructure teams face critical challenges:
 - **Human Error**: Manual remediation introduces inconsistency and mistakes
 - **3 AM Pages**: On-call engineers lose sleep over preventable issues
 
-## 💡 The Solution
+## The Solution
 
 SelfHealStack is an **autonomous recovery platform** that:
 
@@ -35,7 +35,7 @@ SelfHealStack is an **autonomous recovery platform** that:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 🔍 Intelligent Anomaly Detection
 ```
@@ -49,13 +49,13 @@ SelfHealStack is an **autonomous recovery platform** that:
 └─────────────────────────────────────────────────────────────┘
 ```
 
-### 🔮 Predictive Failure Analysis
+###  Predictive Failure Analysis
 - **Sliding Window Analysis**: 15-minute prediction horizon
 - **Trend Detection**: Linear regression on metric derivatives
 - **Confidence Scoring**: Probability-based failure predictions
 - **Root Cause Hints**: Identifies likely failure triggers
 
-### ⚡ Auto-Remediation Engine
+### Auto-Remediation Engine
 | Incident Type | Automated Action | Safety Controls |
 |--------------|------------------|-----------------|
 | Pod CrashLoop | Restart pod | Max 3 restarts/hour |
@@ -72,7 +72,7 @@ SelfHealStack is an **autonomous recovery platform** that:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
                                     ┌─────────────────────┐
@@ -98,7 +98,7 @@ SelfHealStack is an **autonomous recovery platform** that:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -354,18 +354,18 @@ if prediction.probability > 0.7:
 
 ### Supported Incident Types
 
-- ✅ Pod CrashLoopBackOff
-- ✅ OOMKilled containers
-- ✅ High CPU throttling
-- ✅ Disk pressure
-- ✅ Network latency spikes
-- ✅ Connection pool exhaustion
-- ✅ Certificate expiration
-- ✅ Config drift detection
+- Pod CrashLoopBackOff
+- OOMKilled containers
+- High CPU throttling
+- Disk pressure
+- Network latency spikes
+- Connection pool exhaustion
+- Certificate expiration
+- Config drift detection
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### Anomaly Detection Tuning
 
@@ -415,7 +415,7 @@ remediation:
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -433,7 +433,7 @@ pytest tests/integration/ -v --integration
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ```bash
 # Build image
@@ -451,7 +451,7 @@ docker run -d \
 
 ---
 
-## ☸️ Kubernetes Deployment
+##  Kubernetes Deployment
 
 ```bash
 # Apply RBAC (required for K8s API access)
@@ -466,7 +466,7 @@ kubectl get pods -l app=selfhealstack
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -478,13 +478,13 @@ We welcome contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Prometheus](https://prometheus.io/) for metrics infrastructure
 - [scikit-learn](https://scikit-learn.org/) for ML algorithms
@@ -493,7 +493,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Yashaswini Dinesh**
 - LinkedIn: [yashaswini-dinesh-roopa](https://linkedin.com/in/yashaswini-dinesh-roopa)
@@ -502,5 +502,5 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 ---
 
 <p align="center">
-  <b>Built with ❤️ for SRE teams who deserve sleep</b>
+  <b>Built with for SRE teams who deserve sleep</b>
 </p>
